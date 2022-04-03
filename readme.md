@@ -1,0 +1,5 @@
+
+
+
+<uses-feature android:name="android.hardware.camera"
+android:required="true" />
