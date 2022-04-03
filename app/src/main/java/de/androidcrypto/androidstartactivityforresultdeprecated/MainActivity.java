@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE_LOW_RESOLUTION);
         } catch (ActivityNotFoundException e) {
             addMessage("error on starting startActivityForResult");
-            return;
         }
     }
 
